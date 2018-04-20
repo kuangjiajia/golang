@@ -15,8 +15,12 @@ func main() {
 	// }else {
 	// 	fmt.Println("x is smaller than 20")		
 	// }
-	fmt.Println("x is smaller than 20")		
-	forFunc()
+	// fmt.Println("x is smaller than 20")		
+	// forFunc()
+	// rangeFunc()
+	// switchFunc(2)
+	x,y := returnFunc(1,3)
+	fmt.Print(x,y)
 }
 
 // func myFunc() {
@@ -27,15 +31,42 @@ func main() {
 // 	goto Here   //跳转到Here去
 // } 
 
-func forFunc() {
+// func forFunc() {
 	// m := 1
 	// fmt.Println(1)
 	// for m < 10 {
 	// 	m += m
 	// }
 	// fmt.Println(2)
-	for k,v:=range map {
-		fmt.Println("map's key:",k)
-		fmt.Println("map's val:",v)
-	}
-}
+
+// }
+
+
+
+// func switchFunc(val int) {
+// 	switch val {
+// 	case 2:
+// 		fmt.Println("2")
+// 	case 3:
+// 		fmt.Println("3")
+// 	default:
+// 		fmt.Println("no")
+// 	}
+// }
+
+// func rangeFunc() {
+// 	kjj := map[int]int{1: 3,2: 5}
+// 	for v,i := range kjj {
+// 		fmt.Printf("v : %d, i : %d ",v,i)
+// 	}
+// }
+
+
+
+// func returnFunc(i int,j int) int{
+// 	return i+j
+// }
+
+// func returnFunc(i int,j int)(int,int) {
+// 	return i+j,j*i
+// }
