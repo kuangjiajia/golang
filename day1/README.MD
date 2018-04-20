@@ -6,7 +6,6 @@ go语言声明
 ```
     var name typename = value //自带默认值
     var name []string
-    var name1 , name2 , name3 = value1, value2 ,value3
     var name1 , name2 , name3 typename
     
     name := value
@@ -17,5 +16,5 @@ go语言声明
 
 go语言指针
 ```
-    
+
 ```
