@@ -106,3 +106,15 @@ _操作
 	)
 _操作其实是引入该包，而不直接使用包里面的函数，而是调用了该包里面的init函数。
 ```
+
+
+
+struct 类型
+
+type person struct {
+    name string
+    age int
+}
+
+var kjj Person 
+
